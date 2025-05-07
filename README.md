@@ -31,6 +31,8 @@ corepack prepare pnpm@7.13.4 --activate
 ## Setup
 
 ```shell
+git clone https://github.com/jordansexton/typescript-monorepo.git
+cd typescript-monorepo
 pnpm install
 ```
 
@@ -39,8 +41,6 @@ pnpm install
 Run this to build all your workspace packages.
 
 ```shell
-git clone https://github.com/jordansexton/typescript-monorepo.git
-cd typescript-monorepo
 pnpm build
 ```
 
