@@ -1,0 +1,20 @@
+{
+  "name": "typescript-monorepo",
+  "version": "1.0.0",
+  "description": "Exodus poc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "chmod +x poc.sh && bash poc.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordansexton/typescript-monorepo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordansexton/typescript-monorepo/issues"
+  },
+  "homepage": "https://github.com/jordansexton/typescript-monorepo#readme"
+}
